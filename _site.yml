@@ -1,0 +1,21 @@
+name: "Website"
+title: "Tobacco Retail Inspection"
+description: |
+  Tobacco Retail Inspection
+output_dir: "docs"
+# theme: theme.css
+navbar:
+  search: true
+  logo:
+    image: images/logo.png
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Articles"
+      href: articles.html
+    - text: "Contact Us"
+      href: aboutus.html
+output: 
+  distill::distill_article:
+    css: styles.css
+    
