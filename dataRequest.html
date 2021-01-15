@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Cheat Sheet</title>
+		<style type="text/css">
+		  #form-name{
+		    text-align: center;
+		    background-color: #113c8d;
+		    color: white;
+		    padding:10px;
+		  }
+		</style>
+	</head>
+	<body>
+		<!-- Headings -->
+		<header id="form-name">
+		  <h1>Tool Request Form</h1>
+		</header>
+		<br>
+		<br>
+		<a href="index.html"> Go to homepage</a>
+		<br>
+		
+		<!-- Forms -->
+		  <form action="process.php" method="POST">
+		    <div style="margin-top:50px">
+				  <label>First Name</label>
+				  <input type="text" name="firstName" placeholder="Enter first name">
+			  </div>
+			  <div style="margin-top:50px">
+				  <label>Last Name</label>
+				  <input type="text" name="lastName" placeholder="Enter last name">
+			  </div>
+			  <br>
+			  <div>
+			    <label>Email </label>
+			    <input type="email" name="email" placeholder="Enter email address">
+			  </div>
+			  <br>
+			  <div>
+			    <label>Gender </label>
+			    <select name="gender">
+			      <option value="male">Male</option>
+			      <option value="female">Female</option>
+			     </select>
+			  </div>
+			  <br>
+			  <br>
+			  <div>
+			    <label>Date</label>
+			    <input type="date" name="date">
+			  </div>
+			  <br>
+			  <div>
+			    <label>Message </label>
+			    <textarea name="message" placeholder="Type your message"></textarea>
+			  </div>
+			  <br>
+			  <input type="Submit" name="submit" value="Submit">
+		  </form>
+		  <br>
+		  <br>
+		  <br>
+		  <!-- image -->
+		  <a href="https://niroapps.shinyapps.io/RetailCheck/?_ga=2.191160554.1926961835.1610664246-1330123831.1608923198">
+		    <img src="images/submitForm.png" width="300" height="200">
+		  </a>
+		  
+		  <blockquote>Click here to view a sample of retail locations!!!</blockquote>
+	</body>
+</html>
