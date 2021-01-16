@@ -64,6 +64,6 @@ The dashboard displayed by the following link provides easy access to locate ret
 
 ```{r fig.height=500}
 # knitr::include_graphics("images/dashboard.png")
-knitr::include_graphics("images/dash_map.png")
+knitr::include_graphics("images/dash_map_red.png")
 ```
 
