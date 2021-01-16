@@ -9,6 +9,28 @@
 		    color: white;
 		    padding:10px;
 		  }
+		  #bname {
+        box-sizing: border-box;
+        width: 300px;
+        height: 75px;
+        padding: 10px;  
+        border: 5px dashed #113c8d;
+        text-align: center;
+        border-radius: 12px;
+		  }
+		  .button{
+		    background-color: #113c8d;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+		  }
+		  .button {border-radius: 12px;}
 		</style>
 	</head>
 	<body>
@@ -22,8 +44,8 @@
 		<br>
 		
 		<!-- Forms -->
-		  <form action="process.php" method="POST">
-		    <div style="margin-top:50px">
+		  <div style="text-align:left"><form action="process.php" method="POST">
+		    <div class="fname" style="margin-top:50px">
 				  <label>First Name</label>
 				  <input type="text" name="firstName" placeholder="Enter first name">
 			  </div>
@@ -56,16 +78,17 @@
 			    <textarea name="message" placeholder="Type your message"></textarea>
 			  </div>
 			  <br>
-			  <input type="Submit" name="submit" value="Submit">
+			  <input type="button" class="button" value="Submit Form">
 		  </form>
+		  </div>
 		  <br>
 		  <br>
+		  <br>
+		  <div id="bname">Click the dashboard below to view a sample of retail locations!!!</div>
 		  <br>
 		  <!-- image -->
 		  <a href="https://niroapps.shinyapps.io/RetailCheck/?_ga=2.191160554.1926961835.1610664246-1330123831.1608923198">
 		    <img src="images/submitForm.png" width="300" height="200">
 		  </a>
-		  
-		  <blockquote>Click here to view a sample of retail locations!!!</blockquote>
 	</body>
 </html>

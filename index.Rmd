@@ -16,7 +16,20 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-[Go to "Tool Request Form"](dataRequest.html)
+  
+:::: {.blackbox data-latex=""}
+::: {.center data-latex=""}
+**Contact us to try our tool!**
+:::
+
+[Go to "Tool Request Form"!](dataRequest.html)
+
+::::
+
+
+<br>
+<br>
+
 
 Retailer compliance inspection strategies reduce youth access to tobacco products. One goal of this project is to provide an optimal way of selecting tobacco retailers for inspection. We propose an approach based on multi-level propensity score model (PSM) to predict the retail violation of sales to minors (RVSM).  
 
@@ -26,9 +39,19 @@ The dashboard displayed by the following link provides easy access to locate ret
 
 <br>
 
+
+
+:::: {.blackbox data-latex=""}
+::: {.center data-latex=""}
+**Explore Retail Violation Locations!!!**
+:::
+
 [Click here to view dashboard!](https://niroapps.shinyapps.io/RetailCheck/)
 
-```{r}
+::::
+
+
+```{r fig.height=500}
 # knitr::include_graphics("images/dashboard.png")
 knitr::include_graphics("images/dash_map.png")
 ```

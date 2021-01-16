@@ -9,7 +9,16 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-[Contact us through this form](dataRequest.html)
+
+:::: {.blackbox data-latex=""}
+::: {.center data-latex=""}
+**Contact us to try our tool!**
+:::
+
+[Go to "Tool Request Form"!](dataRequest.html)
+
+::::
+
 
 <br>
 
