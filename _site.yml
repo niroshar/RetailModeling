@@ -1,7 +1,5 @@
 name: "Website"
 title: "Tobacco Retail Inspection"
-description: |
-  Tobacco Retail Inspection
 output_dir: "docs"
 # theme: theme.css
 navbar:

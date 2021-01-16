@@ -1,8 +1,10 @@
 ---
-title: "Introduction"
+title: "Tobacco Modeling"
 site: distill::distill_website
 # listing: posts
 ---
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -16,6 +18,20 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+
+```{r, comment=FALSE, fig.align='center', out.width = "80%"}
+# knitr::include_graphics("images/dashboard.png")
+knitr::include_graphics("images/FDA.png")
+```
+
+<h6>This image was downloaded from: https://www.medicaldesignandoutsourcing.com/fda-pauses-domestic-inspections-due-to-coronavirus/</h4>
+
+
+<br>
+
+Retailer compliance inspection strategies reduce youth access to tobacco products. One goal of this project is to provide an optimal way of selecting tobacco retailers for inspection. We propose an approach based on multi-level propensity score model (PSM) to predict the retail violation of sales to minors (RVSM).  
+
+<br>
   
 :::: {.blackbox data-latex=""}
 ::: {.center data-latex=""}
@@ -28,10 +44,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 <br>
-<br>
-
-
-Retailer compliance inspection strategies reduce youth access to tobacco products. One goal of this project is to provide an optimal way of selecting tobacco retailers for inspection. We propose an approach based on multi-level propensity score model (PSM) to predict the retail violation of sales to minors (RVSM).  
 
 This website also includes information and publications of different small area estimation projects completed related to youth tobacco consumption. Please refer to the "Articles" page to view some of the related articles.
 
@@ -45,9 +57,7 @@ The dashboard displayed by the following link provides easy access to locate ret
 ::: {.center data-latex=""}
 **Explore Retail Violation Locations!!!**
 :::
-
 [Click here to view dashboard!](https://niroapps.shinyapps.io/RetailCheck/)
-
 ::::
 
 

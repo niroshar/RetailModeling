@@ -86,26 +86,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Tobacco Retail Inspection: Introduction</title>
+  <title>Tobacco Retail Inspection: Tobacco Modeling</title>
   
   
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Tobacco Retail Inspection: Introduction"/>
+  <meta property="og:title" content="Tobacco Retail Inspection: Tobacco Modeling"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Tobacco Retail Inspection"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Tobacco Retail Inspection: Introduction"/>
+  <meta property="twitter:title" content="Tobacco Retail Inspection: Tobacco Modeling"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site"]}},"value":[{"type":"character","attributes":{},"value":["Introduction"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site"]}},"value":[{"type":"character","attributes":{},"value":["Tobacco Modeling"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2045,6 +2045,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   @import url('https://fonts.googleapis.com/css2?family=Montserrat');
   
   
+  h1.title {
+    font-size: 14px;
+    text-align: center;
+  }
+  
   .distill-site-nav {
     color: rgba(255, 255, 255, 0.8);
     background-color: #276fc1;
@@ -2058,23 +2063,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     text-decoration: none;
   }
   
-  .distill-site-header .title {
-      font-size: 28px;
-      font-weight: 600;
-      bkgd-color: blue;
+  .distill-site-header {
+    --title-size:       20px;    
+    --text-color:       #ff414b; /* edited */
+    --text-size:        15px;
+    --hover-color:      black; /* edited */
+    --bkgd-color:       #ffd8db; /* edited */
   }
   
-  
-  
-  .distill-site-nav a:hover {
-    color: #383838;
-  }
   
   .distill-site-footer {
-    --text-color:       #FFFFFF;
-    --text-size:        10px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        12px;
     --hover-color:      white;
-    --bkgd-color:       #163c8d;
+    --bkgd-color:       #0F2E3D;
   }
   
   
@@ -2082,45 +2084,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       color: rgb(249, 83, 85);
   }
   
-  
-  html, body, p, h2 {
-    font-family: Arial !important;
-    font-weight: 200;
-    line-height: 1.3; 
-    font-size: 1.0em;
-    color: #383838;
-    font-style: normal;
-  }
-  
-  code {
-    font-family: 'Fira Mono', sans-serif;
-    color: #383838;
-    background: rgba(249, 83, 85, 0.1);
-    font-weight: 400;
-    font-size: 0.9em;
-  }
-  
-  d-article a {
-      border-bottom: 2px double rgba(249, 83, 85, 0.4);
-      text-decoration: none;
-  }
-  
-  site-footer {
-    background-color: #fff;
-    color: white;
-  }
-  
   .blackbox {
-    padding: 1em;
+    padding: 0.5em;
     background: #276fc1;
     color: white;
     border: 2px solid black;
     border-radius: 10px;
     text-align: center;
+    font-size: 1.5em;
   }
   .center {
     text-align: center;
   }
+  
+  
+  .bgred {
+    background-color: #b7dcf9;
+  }
+  
+  
+  code {
+    font-family: 'Fira Mono', sans-serif;
+    color: #383838;
+    background: rgba(249, 83, 85, 0.1);
+    font-weight: 300;
+    font-size: 0.9em;
+  }
+  
+  d-article a {
+      border-bottom: 2px double grey;
+      text-decoration: none;
+  }
+  
+  
   </style>
   <!--/radix_placeholder_site_in_header-->
 
@@ -2133,7 +2129,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Introduction","authors":[]}
+{"title":"Tobacco Modeling","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2160,7 +2156,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Introduction</h1>
+<h1>Tobacco Modeling</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2168,14 +2164,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/FDA.png" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+<h6>
+This image was downloaded from: <a href="https://www.medicaldesignandoutsourcing.com/fda-pauses-domestic-inspections-due-to-coronavirus/" class="uri">https://www.medicaldesignandoutsourcing.com/fda-pauses-domestic-inspections-due-to-coronavirus/</a>
+</h4>
+<p><br></p>
+<p>Retailer compliance inspection strategies reduce youth access to tobacco products. One goal of this project is to provide an optimal way of selecting tobacco retailers for inspection. We propose an approach based on multi-level propensity score model (PSM) to predict the retail violation of sales to minors (RVSM).</p>
+<p><br></p>
 <div class="blackbox">
 <div class="center">
 <p><strong>Contact us to try our tool!</strong></p>
 </div>
 <p><a href="dataRequest.html">Go to “Tool Request Form”!</a></p>
 </div>
-<p><br> <br></p>
-<p>Retailer compliance inspection strategies reduce youth access to tobacco products. One goal of this project is to provide an optimal way of selecting tobacco retailers for inspection. We propose an approach based on multi-level propensity score model (PSM) to predict the retail violation of sales to minors (RVSM).</p>
+<p><br></p>
 <p>This website also includes information and publications of different small area estimation projects completed related to youth tobacco consumption. Please refer to the “Articles” page to view some of the related articles.</p>
 <p>The dashboard displayed by the following link provides easy access to locate retailer for inspection based on random sampling, and or based on the high risk retailers.</p>
 <p><br></p>
