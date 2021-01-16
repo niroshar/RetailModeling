@@ -29,7 +29,7 @@ knitr::include_graphics("images/FDA.png")
 
 <br>
 
-Retailer compliance inspection strategies reduce youth access to tobacco products. One goal of this project is to provide an optimal way of selecting tobacco retailers for inspection. We propose an approach based on multi-level propensity score model (PSM) to predict the retail violation of sales to minors (RVSM).  
+Retailer compliance inspection strategies reduce youth access to tobacco products. One goal of this project is to provide an optimal way of selecting tobacco retailers for inspection. We propose an approach based on multi-level Propensity Score Model (PSM) to predict the retail violation of sales to minors (RVSM).  
 
 <br>
   
@@ -47,7 +47,7 @@ Retailer compliance inspection strategies reduce youth access to tobacco product
 
 This website also includes information and publications of different small area estimation projects completed related to youth tobacco consumption. Please refer to the "Articles" page to view some of the related articles.
 
-The dashboard displayed by the following link provides easy access to locate retailer for inspection based on random sampling, and or based on the high risk retailers.
+The dashboard displayed by the following link provides easy access to locate retailer for inspection based on _random selection process_, and/or based on _the high risk retailers_ which were obtained based on *propensity score modeling* approach.
 
 <br>
 
@@ -57,7 +57,7 @@ The dashboard displayed by the following link provides easy access to locate ret
 ::: {.center data-latex=""}
 **Explore Retail Violation Locations!!!**
 :::
-[Click here to view dashboard!](https://niroapps.shinyapps.io/RetailCheck/)
+[Click here to view our sample dashboard!](https://niroapps.shinyapps.io/RetailCheck/)
 ::::
 
 <br>
