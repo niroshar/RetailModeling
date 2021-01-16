@@ -45,50 +45,68 @@
 		
 		<!-- Forms -->
 		  <div style="text-align:left"><form action="process.php" method="POST">
+		  <table align="center">
+		  <tr>
+		  
 		    <div class="fname" style="margin-top:50px">
-				  <label>First Name</label>
-				  <input type="text" name="firstName" placeholder="Enter first name">
+				  <td><label>First Name</label></td>
+				  <td><input type="text" name="firstName" placeholder="Enter first name"></td>
 			  </div>
+		</tr>
+		<tr>		
 			  <div style="margin-top:50px">
-				  <label>Last Name</label>
-				  <input type="text" name="lastName" placeholder="Enter last name">
+				 <td> <label>Last Name</label></td>
+				  <td><input type="text" name="lastName" placeholder="Enter last name"></td>
 			  </div>
-			  <br>
+		</tr>	  
+			  <tr>
 			  <div>
-			    <label>Email </label>
-			    <input type="email" name="email" placeholder="Enter email address">
+			    <td><label>Email </label></td>
+			    <td><input type="email" name="email" placeholder="Enter email address"></td>
 			  </div>
-			  <br>
+			  </tr>
+			  <tr>
 			  <div>
-			    <label>Gender </label>
+			    <td><label>Gender </label></td>
+				<td>
 			    <select name="gender">
 			      <option value="male">Male</option>
 			      <option value="female">Female</option>
 			     </select>
+				 </td>
 			  </div>
-			  <br>
-			  <br>
+			  </tr>
+			  <tr>
 			  <div>
-			    <label>Date</label>
-			    <input type="date" name="date">
+			    <td><label>Date</label></td>
+			    <td><input type="date" name="date"></td>
 			  </div>
-			  <br>
+			  </tr>
+			  <tr>
 			  <div>
-			    <label>Message </label>
-			    <textarea name="message" placeholder="Type your message"></textarea>
+			    <td><label>Message </label></td>
+			    <td><textarea name="message" placeholder="Type your message"></textarea></td>
 			  </div>
-			  <br>
-			  <input type="button" class="button" value="Submit Form">
+			  </tr>
+			  <tr></tr>
+			  <tr></tr>
+			  <tr>
+			  <td colspan="2" align="center"><input type="button" class="button" value="Submit Form"></td>
+			  </tr>
+			  <tr></tr>
+			  <tr></tr>
+			  <tr>
+			  <td id="bname" colspan="2">Click the dashboard below to view a sample of retail locations!!!</td>
+			  </tr>
+			  <tr>
+			  <td colspan="2"> 
+			    <a href="https://niroapps.shinyapps.io/RetailCheck/?_ga=2.191160554.1926961835.1610664246-1330123831.1608923198">
+		        <img src="images/submitForm.png" width="300" height="200">
+		        </a>
+			  </td>
+			  </tr>
 		  </form>
+		  </table>
 		  </div>
-		  <br>
-		  <br>
-		  <br>
-		  <div id="bname">Click the dashboard below to view a sample of retail locations!!!</div>
-		  <br>
-		  <!-- image -->
-		  <a href="https://niroapps.shinyapps.io/RetailCheck/?_ga=2.191160554.1926961835.1610664246-1330123831.1608923198">
-		    <img src="images/submitForm1.png" width="300" height="200">
-		  </a>
 	</body>
 </html>
