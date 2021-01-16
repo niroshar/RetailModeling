@@ -62,7 +62,7 @@ The dashboard displayed by the following link provides easy access to locate ret
 
 <br>
 
-```{r fig.height=500}
+```{r out.width = "80%", fig.align='center'}
 # knitr::include_graphics("images/dashboard.png")
 knitr::include_graphics("images/dash_map_red.png")
 ```
