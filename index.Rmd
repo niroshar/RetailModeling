@@ -60,6 +60,7 @@ The dashboard displayed by the following link provides easy access to locate ret
 [Click here to view dashboard!](https://niroapps.shinyapps.io/RetailCheck/)
 ::::
 
+<br>
 
 ```{r fig.height=500}
 # knitr::include_graphics("images/dashboard.png")
